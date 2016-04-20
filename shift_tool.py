@@ -26,6 +26,7 @@ print(config.getfloat('worktime', 'holiday before holiday'))
 
 
 
+
 #is_ystday = 0;
 cur.execute("""CREATE TABLE day_data(year int,month int,day int,date text,isholi int,ispreholi int,name1 text,name2 text,name3 text,primary key (month,day));""")
 
